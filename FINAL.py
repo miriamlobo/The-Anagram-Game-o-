@@ -45,8 +45,8 @@ if __name__ == "__main__":
         
         while attempts > 0:
             st.write("\nAttempts Left:", attempts)
-            #guess = input('Make a guess (⁠ﾉﾟ⁠0ﾟ⁠)⁠ﾉ⁠→ ').lower()
-            guess = st.text_input('Make a guess (⁠ﾉﾟ⁠0ﾟ⁠)⁠ﾉ⁠→ ').lower()
+            guess = input('Make a guess (⁠ﾉﾟ⁠0ﾟ⁠)⁠ﾉ⁠→ ').lower()
+            #guess = st.text_input('Make a guess (⁠ﾉﾟ⁠0ﾟ⁠)⁠ﾉ⁠→ ').lower()
             if guess == word:
                 score += 1
                 st.markdown("<p style='color: green; font-size: 22px;'>Congrats! You guessed it! ┌⁠(⁠★⁠ｏ⁠☆⁠)⁠┘</p>", unsafe_allow_html=True)
